@@ -1,6 +1,6 @@
 # microserviceA
 # A <br /> 
-Send http request to with server address 'http://example.com/exmple/route' or local host. Request will include the user inputed date a json format {'month': 1, 'day':1, 'year': 2000}<br /> 
+Send http request to with server address microservice is being hosted on. 'http://example.com/exmple/route' or local host. Request will include the user inputed date a json format {'month': 1, 'day':1, 'year': 2000}<br /> 
 ```
 Python Example:
     def get_sign():
@@ -9,6 +9,6 @@ Python Example:
         print(r.text)  # displays the result body.
 ```
 # B <br /> 
-Flask program will respond with a json formatted response containing the zodiac sign based on the date provided.
+Microservice will respond with a json formatted response containing the zodiac sign based on the date provided.
 # UML Sequence Diagram
 ![img.png](img.png)
