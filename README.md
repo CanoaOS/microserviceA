@@ -6,7 +6,7 @@ Python Example:
         payload = {'month': month, 'day': day, 'year': year}
         r = requests.post("http://127.0.0.1:5000", json=payload)
         # And done.
-        print(r.text)  # displays the result body.
+        print(r.text)  # displays the result body.<br />
 B. Request will respond with a json formatted response containing the zodiac sign based on the date.
 
 ![img.png](img.png)
