@@ -10,5 +10,5 @@ Python Example:
         print(r.text)  # displays the result body.<br />
 # B <br /> 
 Flask program will respond with a json formatted response containing the zodiac sign based on the date provided.
-
+# UML Sequence Diagram
 ![img.png](img.png)
