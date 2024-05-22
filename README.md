@@ -1,7 +1,6 @@
 # microserviceA
 # A <br /> 
-Send http request to with server address 'http://example.com/exmple/route' or local host as used in 
-testProgram.py. Request will include the user inputed date a json format {'month': 1, 'day':1, 'year': 2000}
+Send http request to with server address 'http://example.com/exmple/route' or local host. Request will include the user inputed date a json format {'month': 1, 'day':1, 'year': 2000}
 Python Example: 
     def get_sign():
         payload = {'month': month, 'day': day, 'year': year}
